@@ -1,0 +1,13 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TesteProduto {
+
+	@Test
+	public void testePeso() {
+		int peso1 = 0, peso2 = 0;
+		Produto produto = new Produto();
+	}
+
+}

@@ -1,0 +1,24 @@
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+import org.junit.jupiter.api.Test;
+
+class TesteProduto {
+	
+	Produto produto = new Produto(70, 1.75);
+	
+	/*Teste setPeso*/
+	@Test
+	public void testeGetPeso() {
+
+		assertEquals(70, produto.getPeso());
+	}
+	/*Teste getPeso*/
+	@Test
+	public void testeSetAltura(double altura) {
+		
+		assertEquals(1.75, altura);
+	}
+	
+
+}

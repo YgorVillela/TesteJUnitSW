@@ -1,0 +1,28 @@
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+import java.util.Scanner;
+
+import org.junit.jupiter.api.Test;
+
+class TesteProduto {
+	
+	Scanner teclado = new Scanner(System.in);
+	
+	Produto produto = new Produto();
+	
+	/*Teste setPeso*/
+	@Test
+	public void testeSetPeso() {
+
+		assertNotNull(produto.getAltura());
+
+	}
+	/*Teste getPeso*/
+	@Test
+	public void testeGetPeso() {
+		
+		assertNotNull(produto.getPeso());
+	}
+	
+
+}

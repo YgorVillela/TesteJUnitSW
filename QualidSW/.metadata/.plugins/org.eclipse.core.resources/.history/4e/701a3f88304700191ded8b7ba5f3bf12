@@ -1,0 +1,26 @@
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
+import java.util.Scanner;
+
+import org.junit.jupiter.api.Test;
+
+class TesteProduto {
+	
+	Produto produto = new Produto(70, 1.75);
+	
+	/*Teste setPeso*/
+	@Test
+	public void testeSetPeso(double peso) {
+
+		assertNotNull(70 ,produto.getPeso());
+
+	}
+	/*Teste getPeso*/
+	@Test
+	public void testeGetPeso() {
+		
+		assertNotNull(produto.getPeso());
+	}
+	
+
+}

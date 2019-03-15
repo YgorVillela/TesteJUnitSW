@@ -1,0 +1,14 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TesteCalculadora {
+
+	/*Teste Somar calculadora*/
+	
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}
